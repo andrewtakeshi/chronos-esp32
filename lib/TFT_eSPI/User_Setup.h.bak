@@ -1,0 +1,31 @@
+#ifndef USER_SETUP_H
+#define USER_SETUP_H
+
+#define USER_SETUP_LOADED
+
+#define GC9A01_DRIVER
+#define TFT_WIDTH 240
+#define TFT_HEIGHT 240
+
+#define TFT_MOSI 23
+#define TFT_SCLK 18
+#define TFT_CS 5
+#define TFT_DC 16
+#define TFT_RST 17
+#define TFT_BL 4 // Backlight pin for KNOMI v1
+
+#define LOAD_GLCD  // Font 1. Original Adafruit 8 pixel font
+#define LOAD_FONT2 // Font 2. Small 16 pixel high font
+#define LOAD_FONT4 // Font 4. Medium 26 pixel high font
+#define LOAD_FONT6 // Font 6. Large 48 pixel font
+#define LOAD_FONT7 // Font 7. 7-segment 48 pixel font
+#define LOAD_FONT8 // Font 8. Large 75 pixel font
+#define LOAD_GFXFF // FreeFonts. Include access to the 48 Adafruit_GFX free fonts
+
+#define SPI_FREQUENCY 80000000
+#define SPI_READ_FREQUENCY 5000000
+#define SPI_TOUCH_FREQUENCY 2500000
+
+#define TFT_RGB_ORDER TFT_BGR // Fix color order
+
+#endif
